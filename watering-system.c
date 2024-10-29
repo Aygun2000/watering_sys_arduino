@@ -7,11 +7,11 @@ const int moistureSensorPin = A0;     // Analog pin for soil moisture sensor
 const int relayPin = 3;               // Digital pin for relay controlling the valve
 
 // Thresholds and timing
-const int moistureThreshold = 500;    // Adjust according to your sensor's dry/moist values
-const int wateringStartHour1 = 6;     // Start watering at 6:00 AM
-const int wateringEndHour1 = 6;       // End watering before 6:30 AM
-const int wateringStartHour2 = 18;    // Start watering at 6:00 PM
-const int wateringEndHour2 = 18;      // End watering before 6:30 PM
+const int moistureThreshold = 500;   
+const int wateringStartHour1 = 6;     // Starts watering at 6
+const int wateringEndHour1 = 7;       // End Watering at 7
+const int wateringStartHour2 = 18;    // Start watering at 18
+const int wateringEndHour2 = 19;      // End watering at 19
 
 // Timing variables
 DS3231 rtc;
